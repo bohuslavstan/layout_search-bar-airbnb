@@ -1,1 +1,35 @@
 /* add styles here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  width: 100vw;
+  border: 1px solid #e1e7ed;
+  padding: 16px 8px;
+  border-radius: 16px;
+  height: 70px;
+}
+
+.search-icon {
+  height: 19px;
+  width: auto;
+  margin: 25px 17px 26px 26px;
+}
+
+input {
+  border: none;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .search-icon {
+    height: 11px;
+  }
+}
