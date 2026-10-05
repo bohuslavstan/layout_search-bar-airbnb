@@ -15,21 +15,13 @@
   padding: 16px 8px;
   border-radius: 16px;
   height: 70px;
+  background-image: url(images/Search.svg);
+  background-repeat: no-repeat;
+  background-position: 16px center;
 }
 
-.search-icon {
-  height: 19px;
-  width: auto;
-  margin: 25px 17px 26px 26px;
-}
-
-input {
+.search-input {
+  margin-left: 62px;
   border: none;
   width: 100%;
-}
-
-@media screen and (max-width: 768px) {
-  .search-icon {
-    height: 11px;
-  }
 }
