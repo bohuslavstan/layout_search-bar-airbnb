@@ -1,5 +1,5 @@
 /* add styles here */
-* {
+html, body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -20,7 +20,7 @@
   background-position: 16px center;
 }
 
-.search-input {
+.search__input {
   margin-left: 62px;
   border: none;
   width: 100%;
