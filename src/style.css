@@ -1,8 +1,26 @@
 /* add styles here */
-html, body {
+html,
+body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+@font-face {
+  font-family: Avenir-Book;
+  src: url(fonts/Avenir-Book.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Avenir-Heavy;
+  src: url(fonts/Avenir-Heavy.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(fonts/Avenir.ttc);
   font-weight: 300;
 }
 
@@ -24,4 +42,20 @@ html, body {
   margin-left: 62px;
   border: none;
   width: 100%;
+}
+
+.search:hover {
+  border: none;
+}
+
+.search:focus-within {
+  border: none;
+}
+
+.search__input:hover {
+  border: none;
+}
+
+.search__input:focus {
+  border: none;
 }
