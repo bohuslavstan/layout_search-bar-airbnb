@@ -20,6 +20,10 @@ html {
   margin-top: 20px;
 }
 
+.search--small {
+  margin-top: 20px;
+}
+
 .search__input {
   box-sizing: border-box;
   padding-left: 62px;
